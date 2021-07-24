@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Qapps</title>
+
+
+    <style>
+        .whole{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .conOne, .conThree {
+            background-color: #8e4b96;
+           
+        }
+        .textContent{
+            width:100%;
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .rowbtn{
+            width:100%;           
+            display:flex;
+            flex-direction: row;
+            justify-content:flex-start;
+        }
+        .twoBtn{
+            width:140px;
+            height:40px;
+            border:1px solid white;
+            border-radius: 30px;
+            margin:0px 20px 0px 0px;
+        }
+        .redBtn{
+            border:1px solid black;
+        }
+        .bookimg img{
+            width:100%;
+            height:auto;
+        }
+        .conOne{
+            position:relative;
+        }
+        .boxOver{
+            position:absolute;
+            display:flex;
+            flex-direction: row;
+
+            bottom:-30px;
+            right:50px;
+            left:65px;
+        }
+        .boxAround{
+        border:1px solid rgb(247, 244, 244);
+        background-color: white;
+        margin:0px 5px 0px 5px;
+    }
+    .txtBox{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .conTwo{
+        background-color: white;
+    }
+    .boxBelow, .mobileContent{
+        width:100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .playBtn{
+        width:160px;
+        border:1px solid red;
+        border-radius: 30px;
+    }
+    .playVid img{
+        width:100%;
+        height:100%;
+    }
+    .conThree{
+        color:white;
+    }
+    .innerContent{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .innerConRight{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .subContent{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+
+    }
+    .mobileImg img{
+        width:100%;
+        height:100%;
+
+
+    }
+    .subcon4{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .alignMobile img{
+        width:100%;
+        height:100%;
+    }
+    .alignMobile{
+        width:100%;
+        height:100%;
+    }
+    
+   .box1{
+        margin:0 auto;
+        padding:15px;
+        box-shadow: 1px 1px 3px 3px rgb(240, 231, 231);
+
+    }
+    .conSix{
+        color: white;
+    }
+    .mobileImage{
+  background-image: url(./colourimg.jpg);
+  height:700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lastText, .mobileImage{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.threePhone img{
+    width:100%;
+    height:100%;
+}
+        
+    
+
+    
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+    <div class="container whole">
+
+   <div class="container conOne">
+
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><b>Q</b> apps land</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end me-5 " id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+
+
+
+            <div class="row" rowOne>
+
+                <div class="col-md-6">
+                <div class="textContent">    
+                    <div class="display-6 text-light">
+                        Showcase Your Apps
+                    </div>
+                    <div class="lead text-light my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quae distinctio ipsum, velit
+                        mollitia reprehenderit maxime laudantium necessitatibus tenetur voluptates?
+                    </div>
+                    <div class="rowbtn">
+                        <div>
+                            <button class="btn btn-danger twoBtn redBtn">
+                                Download
+                            </button>
+                        </div>
+                        <div>
+                            <button class="btn btn-transparant text-light twoBtn ">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+                <div class="col-md-6 bookimg">
+                  <img src="./Untitled.png">
+                </div>
+
+
+
+
+            </div>
+
+            <div class="row boxOver ">
+             <div class="container txtBox">
+                <div class="col-md-2 boxAround">
+                    <div class="text-center">
+                        <img src="icon.png">
+                    </div>
+                    <div class="text-center h6">
+                        USER FRIENDLY
+                    </div>
+
+                </div>
+                <div class="col-md-2 boxAround">
+                    <div class="text-center">
+                        <img src="icon.png">
+                    </div>
+                    <div class="text-center h6">
+                        SUPER FAST SPEED
+                    </div>
+                    
+                </div>
+                <div class="col-md-2 boxAround">
+                    <div class="text-center">
+                        <img src="icon.png">
+                    </div>
+                    <div class="text-center h6">
+                        AWARD WINNING
+                    </div>
+                </div>
+                <div class="col-md-2 boxAround">
+                    <div class="text-center">
+                        <img src="icon.png">
+                    </div>
+                    <div class="text-center h6">
+                        GET SPECIAL GIFTS
+                    </div>
+                    
+                </div>
+             </div>
+            </div>
+
+
+   </div>
+
+
+        <div class="container conTwo">
+            <div class="row boxBelow">
+                <div class="subContent">
+                    <div class="text-center mt-5 mb-3">
+                        <b class="h4">About </b> <span class="text-info h4"><b> AppsLand</b></span>
+                    </div>
+                    <div class="text-center">
+                        Lorem dolor sit amet consectetur elit. Mollitia  quia incidunt soluta aut voluptas porro ullam corporis.
+                    </div>
+                    <div class="text-center">
+                        Lorem quia incidunt soluta aut voluptas porro corporis.
+                    </div>
+                </div><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="h5 mb-3">
+                                Take a Look Around Our App
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia  quia Mollitia  quia incidunt soluta aut voluptas porro ullam corporis quia incidunt soluta aut voluptas.
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia  quia incidunt Mollitia  quia soluta aut voluptas porro ullam corporis quia incidunt soluta aut voluptas.
+                            </div>
+                            <div>
+                                <button class="btn btn-danger playBtn">
+                                    Download
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 playVid">
+                            <img src="playvideo.png">
+                        </div>
+                    </div>
+                
+
+            </div>
+
+
+        </div>
+
+
+        <div class="container conThree">
+        <div class="mobileContent">
+            <div class="subContent">
+                <div class="text-center mt-3 mb-3">
+                    <b class="h4">Amazing Features</b>
+                </div>
+                <div class="text-center">
+                    Lorem dolor sit amet consectetur elit. Mollitia  quia incidunt soluta aut voluptas porro ullam corporis.
+                </div>
+                <div class="text-center">
+                    Lorem quia incidunt soluta aut voluptas porro corporis.
+                </div>
+            </div><br>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                   <div class="textIcon1"> 
+                       <div class="innerContent">
+                           <div>
+                           <div class="d-flex justify-content-end mb-1">
+                              <b> User Friendly</b> 
+                           </div>
+                           <div  class="text-end mb-3">
+                               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum .
+                           </div>
+                           </div>
+
+                           <div class="p-3">
+                               <img src="icon.png">
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="row">
+                       <div class="textIcon2">
+                        <div class="innerContent">
+                            <div>
+                            <div class="d-flex justify-content-end mb-1">
+                               <b> Super Fast Speed </b>
+                            </div>
+                            <div  class="text-end mb-3">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum.
+                            </div>
+                            </div>
+ 
+                            <div class="p-3">
+                                <img src="icon.png">
+                            </div>
+                        </div>
+
+                        
+                       </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="textIcon2">
+                     <div class="innerContent">
+                         <div>
+                         <div class="d-flex justify-content-end mb-1">
+                             <b>Award Winning</b>
+                         </div>
+                         <div  class="text-end mb-3">
+                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum.
+                         </div>
+                         </div>
+
+                         <div class="p-3">
+                             <img src="icon.png">
+                         </div>
+                     </div>
+
+                     
+                    </div>
+
+               </div>
+
+
+
+                </div>
+
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img class="text-center mobileImg"src="lixoraMobile.png"> 
+                    
+                </div>
+
+                <div class="col-md-4">
+
+                    
+                    <div class="textIcon1">
+                        <div class="innerConRight">
+                            <div class="p-3">
+                                <img src="icon.png">
+                            </div>
+                            <div>
+                            <div class="mb-1">
+                               <b>Height Resolotion</b> 
+                            </div>
+                            <div  class="mb-3">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum.
+                            </div>
+                            </div>
+ 
+
+                        </div>
+ 
+                    </div>
+ 
+                    <div class="row">
+                        <div class="textIcon2">
+                         <div class="innerConRight">
+                            <div class="p-3">
+                                <img src="icon.png">
+                            </div>
+                             <div>
+                             <div class="mb-1">
+                                 <b>Unlimited posibility</b>
+                             </div>
+                             <div  class="mb-3">
+                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum.
+                             </div>
+                             </div>
+  
+
+                         </div>
+ 
+                         
+                        </div>
+ 
+                   </div>
+ 
+                   <div class="row">
+                     <div class="textIcon2">
+                      <div class="innerConRight">
+                        <div class="p-3 ">
+                            <img  src="icon.png">
+                        </div>
+                          <div>
+                          <div class="mb-1">
+                              <b>Very Fast Support</b>
+                          </div>
+                          <div class="mb-3" >
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia perferendis quo consequatur in iusto, sequi dolores magnam illum.
+                          </div>
+                          </div>
+ 
+
+                      </div>
+ 
+                      
+                     </div>
+ 
+                </div>
+ 
+ 
+ 
+                 </div>
+ 
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        </div>
+
+
+        <div class="container conFour">
+            <div class="subcon4">
+                <div class="row">
+                    <div class="text-center mb-2 mt-3">
+                       <b class="h4 ">Screenshots</b> 
+                    </div>
+                    <div class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates iste et minima vero maxime.
+                    </div>
+                    <div class="text-center mb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="text-center mb-3">
+                        <span class="me-4 border"><button><img src="gpayBtn.png"></button></span>
+                        <span><button><img src="gpayBtn.png"></button></span>
+                    </div>
+                </div>
+
+                <div class="row alignMobile">
+                    <div class="col-md-3 col-sm-12">
+                        <img src="violetMobile.png">
+                    </div>
+                    <div class="col-md-1 col-sm-12">
+                        <img src="violetMobile.png">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="centerMobile.png">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <img src="violetMobile.png">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="violetMobile.png">
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+
+        <div class="container conFive">
+            <div class="row text-center mt-5 mb-5">
+                    <div class="col-md-2 box1">
+                            <div>
+                                <img src="icon.png">
+                            </div>
+                            <div>
+                                <b>156K</b>
+                            </div>
+                            <div>
+                               <b> HAPPY USER</b> 
+                            </div>
+
+
+                    </div>
+                    <div class="col-md-2 box1">
+                            <div>
+                                <img src="icon.png">
+                            </div>
+                            <div>
+                                <b>1526K</b>
+                            </div>
+                            <div>
+                                <b>LINE OF CODE</b>
+                            </div>
+
+
+                    </div>
+                    <div class="col-md-2 box1">
+                            <div>
+                                <img src="icon.png">
+                            </div>
+                            <div>
+                                <b>156K</b>
+                            </div>
+                            <div>
+                                <b>DOWNLOADS</b>
+                            </div>
+
+
+                    </div>
+                    <div class="col-md-2 box1">
+                            <div>
+                                <img src="icon.png">
+                            </div>
+                            <div>
+                                <b>156K</b>
+                            </div>
+                            <div>
+                                <b>
+                                 APP RATES
+                                </b>
+                            </div>
+
+
+                    </div>
+
+
+                
+
+                
+            </div>
+            
+
+        </div>
+
+        <div class="container conSix">
+            <div class="mobileImage">
+                <div class="lastText">
+                <div class="row">
+                    <div class="text-center h3 mb-3 mt-4">
+                        Choose your plan
+                    </div>
+                    <div class="text-center lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque repellendus expedita illo laborum nostrum. 
+                    </div>
+                    <div class="text-center lead mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing laborum nostrum. 
+                    </div>
+                </div>
+                    <div class="row threeMobile">
+                        <div class="col-md-4 threePhone">
+                            <img src="lasteMobile.png">
+                        </div>
+                        <div class="col-md-4 threePhone">
+                            <img src="lasteMobile.png">
+                        </div>
+                        <div class="col-md-4 threePhone">
+                            <img src="lasteMobile.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 pe-2 ps-5">
+                            <div class="display-6 mb-3 mt-4">
+                               <b> FAQ</b>
+                            </div>
+                            <div class="lead">
+                                Lorem ipsum dolor sit consect adipisicing laborum nostrum. 
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ps-5">
+                            <div class="h5 mb-2 mt-4">
+                                is this app free?
+                            </div>
+                            <div class="lead mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque repellendus expedita illo nostrum. 
+                            </div>
+
+                            <div class="h5">
+                                How can I Download and Update
+                            </div>
+                            <div class="lead mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque repellendus expedita illo nostrum. 
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-4 ps-5">
+                            <div class="h5 mt-4">
+                                is this app free?
+                            </div>
+                            <div class="lead mb-5" >
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque repellendus expedita illo nostrum. 
+                            </div>
+
+                            <div class="h5">
+                                How can I Download and Update
+                            </div>
+                            <div class="lead mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque repellendus expedita illo nostrum. 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/26769da597.js" crossorigin="anonymous"></script>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
